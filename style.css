@@ -1,0 +1,174 @@
+/* Global settings */
+
+body {
+font-style: "Lato";
+}
+
+h1 {
+font-size: 4em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+ul  {
+list-style: none;
+}
+
+img {
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+height: 100px;
+width: 90px;
+}
+
+/* Classes */
+
+.container {
+display: grid;
+justify-content: center;
+grid-template-columns: 75vh;
+grid-template-rows: 25vh 5vh 45vh 20vh;
+grid-template-areas:
+"hd"
+"nb"
+"ct"
+"ft";
+grid-gap: 5vh;
+padding: 1%;
+}
+
+.nestedCard {
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-areas:
+"one two";
+border-top: 1px solid #999999;
+}
+
+.authorbox {
+width: 30vw;
+height:   20vh;
+padding-top: 10%;
+padding-left: 3%;
+}
+
+.title {
+font-size: 1.6em;
+}
+
+.author {
+font-size: 0.8em;
+color: #777777;
+
+}
+
+.header {
+grid-area: hd;
+background: #cc0000;
+color: white;
+padding-top: 5%;
+text-align: center;
+}
+
+.navbar {
+grid-area: nb;
+text-decoration: none;
+}
+
+.navbar ul {
+display: flex;
+list-style: none;
+flex-direction: row;
+font-size: 1.5em;
+}
+
+.navbar li {
+padding: 3%;
+
+}
+
+.content {
+grid-area: ct;
+border-top: 1px solid #999999;
+color: black;
+font-size: 1.2em;
+padding: 3%;
+
+
+}
+
+.footer {
+grid-area: ft;
+border-top: 1px solid #999999;
+color: #999999;
+text-align: center;
+padding: 5%;
+}
+
+
+
+/* CSS */
+.button_red {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  float: right;
+
+}
+
+.button_red:hover,
+.button_red:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button_red:active {
+  opacity: .5;
+}
+
+.button_red span {
+text-decoration: none;
+  
+}
+
+/* ID's */
+
+#one {
+grid-area: one;
+text-align: center;
+}
+
+#two {
+grid-area: two;
+}
+
+#three {
+grid-area: three;
+}
+
+#four {
+grid-area: four;
+}
