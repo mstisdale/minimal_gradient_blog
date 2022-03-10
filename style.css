@@ -1,4 +1,14 @@
 /* Global settings */
+@media screen and (max-width: 768px) {
+  .nestedCard {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "one";
+    border-top: 4px solid #ffffff;
+  }
+}
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -8,7 +18,6 @@ body {
   font-style: "Lato";
   background-image: url("pink_blue.png");
   background-repeat: no-repeat;
-
 }
 
 h1 {
@@ -16,19 +25,17 @@ h1 {
 }
 
 a:link {
-text-decoration: none;
-color: white;
+  text-decoration: none;
+  color: white;
 }
 
 a:visited {
-color: white;
+  color: white;
 }
 
 ul {
   list-style: none;
 }
-
-
 
 img {
   -webkit-border-radius: 1px 2px 3px 4px;
@@ -37,7 +44,6 @@ img {
   height: 12vh;
   width: 10vh;
   float: left;
-
 }
 
 /* Classes */
@@ -69,7 +75,6 @@ img {
   padding-top: 10%;
   padding-left: 6%;
   margin: 5%;
-
 }
 
 .title {
@@ -103,32 +108,29 @@ img {
   list-style: none;
   flex-direction: row;
   font-size: 1.5em;
-
 }
 
 .navbar li {
   padding: 3%;
-
 }
 
 .info {
-display: grid;
-grid-template-columns: 50% 50%;
-grid-area: "three four";
-
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-area: "three four";
 }
 
 .social {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .social img {
-width: 10%;
-height: 10%;
-border: none;
-padding: 2px;
-margin: 2px;
+  width: 10%;
+  height: 10%;
+  border: none;
+  padding: 2px;
+  margin: 2px;
 }
 
 .content {
@@ -149,11 +151,7 @@ margin: 2px;
   padding: 5%;
 }
 
-
 /* CSS */
-
-
-
 /* CSS */
 .button-80 {
   background: #fff;
@@ -165,7 +163,7 @@ margin: 2px;
   color: #212121;
   cursor: pointer;
   display: inline-block;
-  font-family: Circular,Helvetica,sans-serif;
+  font-family: Circular, Helvetica, sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
   letter-spacing: -.01em;
@@ -186,11 +184,7 @@ margin: 2px;
   outline: 0 solid transparent;
 }
 
-
-
 /* ID's */
-
-
 #one {
   grid-area: one;
 }
