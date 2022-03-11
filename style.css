@@ -10,7 +10,7 @@
 
 body {
   font-style: "Lato";
-  background-image: url("pink_blue.png");
+  background-image: url("assets/pink_blue.png");
   background-repeat: no-repeat;
 }
 
@@ -20,7 +20,7 @@ h1 {
 
 a:link {
   text-decoration: none;
-  color: white;
+  color: #0000bb;
 }
 
 a:visited {
