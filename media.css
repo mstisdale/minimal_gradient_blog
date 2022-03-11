@@ -1,5 +1,7 @@
 @media screen and (max-width: 568px) {
 
+/* Special thanks to https://getcssscan.com/css-buttons-examples for button styling */
+
   .button-80 {
     background: #fff;
     backface-visibility: hidden;
