@@ -28,3 +28,7 @@
 .button-80:focus {
   outline: 0 solid transparent;
 }
+
+a.button-80:link {
+ color: black;
+}
