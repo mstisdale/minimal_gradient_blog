@@ -124,6 +124,14 @@ img {
   grid-area: "three four";
 }
 
+.thatsme {
+margin: 0;
+display: flex;
+flex-direction: column;
+font-size: 13px;
+font-style: italic;
+}
+
 .social {
   display: flex;
   flex-direction: row;
