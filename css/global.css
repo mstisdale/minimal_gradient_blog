@@ -1,0 +1,38 @@
+/* Global settings */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-style: "Lato";
+  background-image: url("../assets/pink_blue.png");
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+a:link {
+  text-decoration: none;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #0000bb;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  -webkit-border-radius: 1px 2px 3px 4px;
+  -moz-border-radius: 1px 2px 3px 4px;
+  border-radius: 1px 2px 3px 4px;
+  height: 12vh;
+  width: 10vh;
+  float: left;
+  margin-bottom: 0;
+}
