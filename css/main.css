@@ -1,9 +1,8 @@
-
 /* Classes */
 .container {
   display: grid;
   justify-content: center;
-  grid-template-columns: 40%;
+  grid-template-columns: 45%;
   grid-template-rows: 20vh 5% 60vh 10%;
   grid-template-areas:
     "hd"
