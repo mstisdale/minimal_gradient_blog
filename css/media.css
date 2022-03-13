@@ -1,12 +1,5 @@
 @media screen and (max-width: 717px) {
 
-  body {
-    font-style: "Lato";
-    background-image: url("../assets/pink_blue.png");
-    background-repeat: no-repeat;
-    font-size: 1px;
-  }
-
 /* Special thanks to https://getcssscan.com/css-buttons-examples for button styling */
 
   .button-80 {
