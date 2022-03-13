@@ -14,3 +14,7 @@ Changed borders to box style. Added 2 css files as imports. Removed bottom borde
 3.12.2022
 
 Added new 'css' directory. Tweaked responsiveness.
+
+3.13.2022
+
+Changed layout. Removed borders.
