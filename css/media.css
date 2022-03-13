@@ -252,7 +252,7 @@ border-top: 4px solid #ffffff;
           display: flex;
           list-style: none;
           flex-direction: column;
-          margin-bottom: 2%;
+          margin-bottom: 5%;
         }
 
         .navbar li {
