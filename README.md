@@ -10,3 +10,7 @@ Added gradient red and blue background. Added white button. Added Fixes and chan
 3.11.2022
 
 Changed borders to box style. Added 2 css files as imports. Removed bottom border. Added increased mobile responsiveness. Changed links to blue. Created new directory structure.
+
+3.12.2022
+
+Added new 'css' directory. Tweaked responsiveness.
