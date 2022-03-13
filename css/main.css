@@ -3,13 +3,13 @@
 .container {
   display: grid;
   justify-content: center;
-  grid-template-columns: 75vh;
-  grid-template-rows: 25vh 5vh 50vh 20vh;
+  grid-template-columns: 40%;
+  grid-template-rows: 20vh 5% 60vh 10%;
   grid-template-areas:
-    "hd hd"
-    "nb nb"
-    "ct ct"
-    "ft ft";
+    "hd"
+    "nb"
+    "ct"
+    "ft";
   grid-gap: 3.5vh;
   padding: 2%;
 }
